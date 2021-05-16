@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMovieList</title>
+    <meta name="description" content="Portal de Filmes">
+    <meta name="keywords" content="Portal, Filme, Estreia">
+    <meta name="author" content="Breno Lopes">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e3e9df36f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="padding: 20px; padding-right: 80px; background-color: #000814; border-radius: 20px;">
+            <a class="navbar-brand" href="#"><img src="./IMG/M&M.png" alt="" width="80px" style="border-radius: 360px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#lancamentos">Lançamentos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#destaque">Em Destaque</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#avaliacao"">Avaliação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#entrevistas"">Entrevista & Making of</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#noticias">Novidades</a>
+                  </li>
+              </ul>
+            </div>
+            <nav class="navbar navbar-dark" style="background-color: #000814;">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #F5CB5C; border-color: #9d0208; color: #000814;">Pesquisar</button>
+                  </form>
+              </nav>
+          </nav>
+          <main>
+            <div class="titulo-lancamento" id="lancamentos">
+            <h1>LANÇAMENTOS</h1>
+             </div>
+             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <div class="carousel-1">
+                     <div class="row carousel-1">
+                         <h2><b>Tom & Jerry: O Filme</b></h2>
+                         
+                         <iframe width="1350" height="480" src="https://www.youtube.com/embed/cy2QirXhk0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         
+                         <div id="texto-carousel-1" class="col-lg-6 col-sm-12 col-md-6 col-12">
+                             
+                             <p><strong>Sinopse:</strong> Adaptação dos desenhos, Tom & Jerry: O Filme mostra uma das rivalidades mais amadas da história que é reacendida quando Jerry se muda para o melhor hotel de Nova York na véspera do "casamento do século", forçando a desesperada organizadora do evento (Chloe Moretz) a contratar Tom para se livrar do rato. Mas logo surge um problema ainda maior: um funcionário diabolicamente ambicioso conspira contra os três. Uma combinação de animação clássica e live-action.</p>
+                             <span><strong>Diretor:</strong>Tim Story</span><span></span>
+                             <span><strong>Roteiro:</strong>Scott Neustadter, Michael H. Weber</span><span></span>
+                             <span><strong>Estreia:</strong>18 de fevereiro de 2021</span><span></span>
+                             <div class="container">
+                                 <H3>Elenco</H3>
+                                 <br>
+                                 <a href="https://pt.wikipedia.org/wiki/Chlo%C3%AB_Grace_Moretz" target="_blank" rel="noopener noreferrer"><button type="button">Chloë Grace Moretz</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Michael_Pe%C3%B1a" target="_blank" rel="noopener noreferrer"><button type="button">Michael Peña </button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Colin_Jost" target="_blank" rel="noopener noreferrer"><button type="button">Colin Jost</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Ken_Jeong" target="_blank" rel="noopener noreferrer"><button type="button">Ken Jeong</button></a>
+                             </div>    
+                         </div>
+                         <div class="avaliacao-1">
+                             <h3>Avaliação</h3>
+                             <h4>Autor: Lucas Moura</h4><p>É um filme legal. Mas confesso que poderia ser muito melhor. Para recompensar o fato dos personagens não falarem, o roteiro preenche o filme algumas subtramas. Essas subtramas, em geral, são chatas, além de tirar o protagonismo do Tom e do Jerry. As melhores cenas, são aquelas em que botam os personagens(Tom e Jerry) para "se caçarem". Mas é um pena em que sejam poucas.</p>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="far fa-star"></i>
+                             <i class="far fa-star"></i>
+                         </div>
+                     </div>
+                 </div> 
+                 </div>
+                 <div class="carousel-item">
+                   <div class="carousel-2">
+                     <div class="row carousel-2">
+                         <h2><b>Mulher-Maravilha 1984</b></h2>
+                         
+                         <iframe width="1350" height="480" src="https://www.youtube.com/embed/Y5BejyusI2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         
+                         <div id="texto-carousel-2" class="col-lg-6 col-sm-12 col-md-6 col-12">
+                             
+                             <p><strong>Sinopse:</strong> Mulher-Maravilha 1984 acompanha Diana Prince/Mulher-Maravilha (Gal Gadot) em 1984, durante a Guerra Fria, entrando em conflito com dois grande inimigos - o empresário de mídia Maxwell Lord (Pedro Pascal) e a amiga que virou inimiga Barbara Minerva/Cheetah (Kristen Wiig) - enquanto se reúne com seu interesse amoroso Steve Trevor (Chris Pine).</p>
+                             <span><strong>Diretor:</strong>Patty Jenkins</span><span></span>
+                             <span><strong>Roteiro:</strong> Patty Jenkins, Geoff Johns, David Callaham</span><span></span>
+                             <span><strong>Estreia:</strong>24 de dezembro de 2020 (Brasil)</span><span></span>
+                             <div class="container">
+                                 <H3>Elenco</H3>
+                                 <br>
+                                 <a href="https://pt.wikipedia.org/wiki/Gal_Gadot" target="_blank" rel="noopener noreferrer"><button type="button">Gal Gadot</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Chris_Pine" target="_blank" rel="noopener noreferrer"><button type="button">Chris Pine</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Kristen_Wiig" target="_blank" rel="noopener noreferrer"><button type="button">Kristen Wiig</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Pedro_Pascal" target="_blank" rel="noopener noreferrer"><button type="button">Pedro Pascal</button></a>
+                             </div> 
+                         </div>
+                         <div class="avaliacao-2">
+                             <h3>Avaliação</h3>
+                             <h4>Autor: Giovanni Vegas</h4><p>
+                                Gosto muito do primeiro filme por isso minha expectativa para o segundo era alta, porém sinto dizer mas o filme é horrível, com o um roteiro mal desenvolvido recheado de clichês frases de efeito e erros de continuidade nas cenas, efeitos especiais em alguns momentos péssimos e cenas de ação completamente inferiores ao primeiro. O clímax do filme é o mais clichê possível com isso o desenvolvimento dos vilões também não convence na proposta, cheguei a não acreditar no que estava vendo, uma grande decepção.</p>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half-alt"></i>
+                             <i class="far fa-star"></i>
+                             <i class="far fa-star"></i>
+                             <i class="far fa-star"></i>
+                         </div>
+         
+                     </div>
+                 </div>
+                 </div>
+                 <div class="carousel-item">
+                   <div class="carousel-3">
+                     <div class="row carousel-3">
+                         <h2><b>Chorão: Marginal Alado</b></h2>
+                         
+                         <iframe width="1350" height="480" src="https://www.youtube.com/embed/1q05D1GO4eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         
+                         <div id="texto-carousel-3" class="col-lg-6 col-sm-12 col-md-6 col-12">
+                             
+                             <p><strong>Sinopse:</strong> O documentário retrata a vida e a carreira do cantor brasileiro Chorão, líder da banda Charlie Brown Jr. Além de depoimentos sobre sua vida pessoal e profissional e imagens de arquivo, o filme acompanha a história de uma das estrelas do rock mais importantes do Brasil. Chorão viveu duas décadas intensas de sucesso nacional e internacional, cheios de momentos polêmicos, até sua morte prematura, por overdose de drogas, em 2013.</p>
+                             <span><strong>Diretor:</strong>Felipe Novaes</span><span></span>
+                             <span><strong>Roteiro:</strong>Felipe Novaes, Hugo Prata, Matias Lovro</span><span></span>
+                             <span><strong>Estreia:</strong> 8 de abril de 2021 (Brasil)</span><span></span>
+                             <div class="container">
+                                 <H3>Elenco</H3>
+                                 <br>
+                                 <a href="https://pt.wikipedia.org/wiki/Chor%C3%A3o:_Marginal_Alado" target="_blank" rel="noopener noreferrer"><button type="button">Chorão</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Rick_Bonadio" target="_blank" rel="noopener noreferrer"><button type="button">Rick Bonadio</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Zeca_Baleiro" target="_blank" rel="noopener noreferrer"><button type="button">Zeca Baleiro</button></a>
+                                 <a href="https://pt.wikipedia.org/wiki/Paulo_Vilhena" target="_blank" rel="noopener noreferrer"><button type="button">Paulo Vilhena</button></a>
+                             </div>    
+                         </div>
+                         <div class="avaliacao-3">
+                             <h3>Avaliação</h3>
+                             <h4>Autor:Tiago Soares</h4><p>Para quem, assim como que eu, que é fã, e acompanhou a história do começo até hoje, não trás muitas novidades, vários trechos que estão disponíveis em vídeos de YouTube... mas Tbm teve logicamente uns arquivos pessoais, bem legais. Foi muito bem dividido, em o começo, e a busca pela fama, durante, e sua parte final da vida.... As escolhas dos relatos de ex-esposa, irmão, segurança, motorista, membros da bandas, filho, produtor musical, amigos de rock, consegue captar a realidade, detalhadamente de sua vida. Achei o áudio e fotografia boas e conseguiu passar o que se é proposto para esse tipo de produção.</p>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+               </div>
+           </div>
+           
+     
+             
+             <div class="destaque" id="destaque">
+                 <div class="titulo-destaque">
+                     <h1>EM DESTAQUE</h1>
+                 </div>
+                 <div class="dropdown">
+                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Todos
+                     </button>
+                     <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                       <a class="dropdown-item" href="#">Cómedia</a>
+                       <a class="dropdown-item" href="#">Aventura</a>
+                       <a class="dropdown-item" href="#">Romance</a>
+                     </div>
+                   </div>
+                 
+                 <section class="row em-destaques">
+                     <div class="card-group">
+                         <div class="card" style="background-color: #F5CB5C; border: 0px;">   
+                             <a href="https://www.youtube.com/watch?v=tGpTpVyI_OQ" target="_blank" rel="noopener noreferrer"><img src="./IMG/pulp-fiction.jfif" class="card-img-top" alt="Poster Pulp"></a>
+                             
+                         </div>
+                         <div class="card" style="background-color: #F5CB5C; border: 0px;">
+                           <a href="https://www.youtube.com/watch?v=6JnN1DmbqoU" target="_blank" rel="noopener noreferrer"><img src="./IMG/figthclub.jpg" class="card-img-top" alt="Poster Fight"></a>
+                         </div>
+                         <div class="card" style="background-color: #F5CB5C; border: 0px;">
+                           <a href="https://www.youtube.com/watch?v=4u07rpXrTz8" target="_blank" rel="noopener noreferrer"><img src="./IMG/thewil.jpg" class="card-img-top" alt="Poster ITW"></a>
+
+                         </div>
+                         <div class="card" style="background-color: #F5CB5C; border: 0px;">
+                             <a href="https://www.youtube.com/watch?v=jfVTJm9NilA" target="_blank" rel="noopener noreferrer"><img src="./IMG/coringa2.jpg" class="card-img-top" alt="Poster joker"></a>
+                         </div>
+                       </div>  
+                 </section>  
+                 
+                 <div class="butao-destaque">
+                 <button type="button">+ Carregar Mais Filmes</button>
+                 </div> 
+             </div>
+             
+             <div class="titulo-avaliacoes" id="avaliacao">
+                 <h1>AVALIAÇÕES</h1>
+             </div>
+             <div class="container-ultimas-av">
+                 <!--<div class="titulo-av">
+                     <h1>ULTIMAS AVALIAÇÕES</h1>
+                 </div> 
+                 <div class="av1">
+                     <img src="./IMG/Bob.jfif" alt="av1-img">
+                     <h3><strong>Nome do Avaliador</strong></h3>
+                     <p><strong>Avaliação:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta veniam voluptatem esse quo illum nihil voluptate vero. Maxime aut facilis veritatis tempore tempora modi perspiciatis voluptatibus sequi assumenda impedit?</p>
+                     <span>estrela de Avaliação</span><strong>Data</strong>
+                 </div><br>
+                 <div class="av2">
+                     <img src="./IMG/Ricky.jfif" alt="av2-img">
+                     <h3><strong>Nome do Avaliador</strong></h3>
+                     <p><strong>Avaliação:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta veniam voluptatem esse quo illum nihil voluptate vero. Maxime aut facilis veritatis tempore tempora modi perspiciatis voluptatibus sequi assumenda impedit?</p>
+                     <span>estrela de Avaliação</span><strong>Data</strong>
+                 </div><br>
+                 <div class="av3">
+                     <img src="./IMG/Wesley.jfif" alt="av3-img">
+                     <h3><strong>Nome do Avaliador</strong></h3>
+                     <p><strong>Avaliação:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta veniam voluptatem esse quo illum nihil voluptate vero. Maxime aut facilis veritatis tempore tempora modi perspiciatis voluptatibus sequi assumenda impedit?</p>
+                     <span>estrela de Avaliação</span><strong>Data</strong>
+                 </div>
+                 <div class="butao-avaliacao">
+                 <button type="button">+ Carregar Mais Avaliações</button>
+                 </div>-->
+                 <div class="ava-1"><img src="./IMG/Bob.jfif" alt="av1-img">
+                     <h3><strong>Leandro N.</strong></h3>
+                     <h4>Filme: Intocáveis </h4>
+                     <p><strong>Avaliação:</strong>Um dos melhores filmes que já vi. Atuação impecável dos atores François Cluzet e Omar Sy. Toca nossa sensibilidade (um trocadilho com o título "Intocáveis"?). Música escolhida à dedo. Fotografia e direção perfeitas. Vale a pena assistir mais de uma vez.</p>
+                     <span><i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                     </span>
+                         <strong>20/04/2020</strong> <br>
+                         <a href="https://www.telecineplay.com.br/filme/Intocaveis_4164" target="_blank" rel="noopener noreferrer"><button>Assista Agora</button></a>
+                        </div>
+                         
+                 <div class="ava-2"><img src="./IMG/Ricky.jfif" alt="av1-img">
+                     <h3><strong>Adison S.</strong></h3>
+                     <h4>Filme: Velozes & Furiosos 7 </h4>
+                     <p><strong>Avaliação:</strong>Mais do mesmo carros voando fazendo coisas impossíveis na vida real, Vin Diesel o malhado que bate em todo mundo não mudou nada do outro achei muito fraco o pior da franquia !!</p>
+                     <span><i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                     </span><strong>10/05/2018</strong><br>
+                     <a href="https://www.telecineplay.com.br/filme/Velozes_and_Furiosos_7_13549" target="_blank" rel="noopener noreferrer"><button>Assista Agora</button></a></div>
+                 <div class="ava-3"><img src="./IMG/Wesley.jfif" alt="av1-img">
+                     <h3><strong>Rodrigo Gomes</strong></h3>
+                     <h4>Filme: Era uma Vez em... Hollywood </h4>
+                     <p><strong>Avaliação:</strong>O tipo de filme que assistimos apenas pelo elenco. O roteiro é bem sem graça e durante uma hora e quarenta minutos não tem muito o que ver, apenas um longa parado e monótono, que chega a ser bobo, fora totalmente do que esperamos desse diretor. No fim, Tarantino finalmente mostra sua marca registrada em um ápice nem tão esperado, que eu diria salvar o longa. Muito extenso e desnecessário.</p>
+                     <span><i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                     </span><strong>23/04/2021</strong><br>
+                     <a href="https://www.youtube.com/watch?v=iZhvLG5NZeE" target="_blank" rel="noopener noreferrer" ><button style= "margin-bottom: 25px;">Assista Agora</button></a>
+                    </div>
+             </div>
+             <div class="butao-avaliações">
+                 <button type="button">+ Carregar Mais Avaliações	</button>
+             </div>
+             
+             <!--<div class="titulo-entrevistas">
+                 <h1>ENTREVISTAS E MAKING OF</h1>
+             </div>
+             <div class="entrevistas">
+                 <div class="filmes">
+                     <div class="filme1">
+                         <iframe width="400" height="225" src="https://www.youtube.com/embed/BPDttG-lZDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <div class="texto-filme1">
+                             <h4>Nome do Filme</h4>
+                             <span><strong>Diretor:</strong>Nome Diretor</span>
+                             <span><strong>Roteiro:</strong>Nome do roteirista</span>
+                             <span><strong>Estreia:</strong>Ano Estreia</span>
+                         </div>
+                     </div>
+                     <div class="filme2">
+                         <iframe width="400" height="225" src="https://www.youtube.com/embed/BPDttG-lZDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <div class="texto-filme2">
+                             <h4>Nome do Filme</h4>
+                             <span><strong>Diretor:</strong>Nome Diretor</span>
+                             <span><strong>Roteiro:</strong>Nome do roteirista</span>
+                             <span><strong>Estreia:</strong>Ano Estreia</span>
+                         </div>
+                     </div>
+                     <div class="filme3">
+                         <iframe width="400" height="225" src="https://www.youtube.com/embed/BPDttG-lZDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <div class="texto-filme3">
+                             <h4>Nome do Filme</h4>
+                             <span><strong>Diretor:</strong>Nome Diretor</span>
+                             <span><strong>Roteiro:</strong>Nome do roteirista</span>
+                             <span><strong>Estreia:</strong>Ano Estreia</span>
+                         </div>
+     
+                     </div>
+                 </div>
+                 <div class="butao-entrevistas">
+                     <button type="button">+ Carregar mais entrevistas</button>
+                 </div>
+             </div>-->
+     
+             <div class="entrevistas" id="entrevistas">
+                 <h1>ENTREVISTAS E MAKING OF</h1>
+                 <div class="container-entrevistas">
+                     <div class="entrevista-1">
+                        <iframe src="https://www.youtube.com/embed/Ciu5yQYwJgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <h4>Vingadores: Era de Ultron</h4>
+                             <span><strong>Diretor:</strong>Joss Whedon</span>
+                             <span><strong>Roteiro:</strong>Joss Whedon</span>
+                             <span><strong>Estreia:</strong> 23 de abril de 2015 (Brasil)</span>
+                     </div>
+                     <div class="entrevista-2">
+                        <iframe src="https://www.youtube.com/embed/mox0_xGO-Do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <h4>Coringa</h4>
+                             <span><strong>Diretor:</strong>Todd Phillips</span>
+                             <span><strong>Roteiro:</strong>Todd Phillips,Scott Silver</span>
+                             <span><strong>Estreia:</strong>3 de outubro de 2019</span>
+                     </div>
+                     <div class="entrevista-3">
+                        <iframe src="https://www.youtube.com/embed/yZbSkpCgrR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <h4>O Diabo de Cada Dia</h4>
+                             <span><strong>Diretor:</strong>Antonio Campos</span>
+                             <span><strong>Roteiro:</strong>Antonio Campos, Paulo Campos</span>
+                             <span><strong>Estreia:</strong>11 de setembro de 2020 (mundial)</span>
+                     </div>
+     
+                 </div>
+             </div>
+             <div class="butao-avaliações">
+                 <button type="button">+ Carregar Mais Videos	</button>
+             </div>
+             
+        </main>
+
+   <!--GRID PARTE DE BAIXO DO SITE!!!!-->
+   <div class="titulo-noticial">
+    <h1>NOTÍCIAS</h1>
+    </div>
+   <div class="grid">
+    <section class="noticias" id="noticias">
+        
+           <div class="noticia1">
+            <img src="./IMG/espreita.jpg" class="img-fluid" alt="Responsive image" align="left">
+               <h3>O filme de terror e mistério na Netflix apresenta uma narrativa cheia de reviravoltas e revelações inesperadas.</h3>
+               <p>À Espreita do Mal é um dos filmes de terror que foram lançados em abril no catálogo da Netflix está fazendo sucesso com o público, figurando no Top 10 desde que estreou no catálogo do serviço de streaming.  Muito desse feito é por causa da narrativa tensa e misteriosa que prende e brinca com as expectativas do público como um desses filmes marcantes de terror psicológico, repleto de reviravoltas.</p>
+               <button type="button">Netflix</button>
+                <button type="button">Terror</button>
+                <button type="button">Boa Indicação</button>
+           </div>
+           <div class="noticia2">
+            <img src="./IMG/nomadland2.jpeg" class="img-fluid" alt="Responsive image" align="left">
+            <h3>Nomadland: Conheça o filme de Chloé Zhao que ganhou o Oscar de Melhor Filme em 2021</h3>
+            <p>Nomadland foi o queridinho na temporada de premiações de 2021 e confirmou seu favoritismo na premiação mais importante do cinema, onde garantiu o Oscar de Melhor Filme. Indicado a seis categorias, a produção ainda levou para casa o troféu de Melhor Atriz por Frances McDormand e Melhor Diretora por Chloé Zhao – que se tornou a segunda mulher, sendo a primeira não-branca, a vencer na categoria de direção.</p>
+            <button type="button">Oscar</button>
+            <button type="button">Melhor Filme</button>
+            <button type="button">Boa Indicação</button>
+           </div>
+           <div class="noticia3">
+            <img src="./IMG/capitaoamerica4.jpg" class="img-fluid" alt="Responsive image" align="left">
+            <h3>Capitão América 4 é confirmado pela Marvel; criador de Falcão e o Soldado Invernal escreverá o roteiro</h3>
+            <p>Capitão América 4 é realidade! A Marvel confirmou, nesta sexta-feira (23), o desenvolvimento do quarto filme solo do herói, que terá envolvimento de Malcolm Spellman, showrunner de Falcão e o Soldado Invernal.
+            Segundo o Hollywood Reporter, Spellman também vai escrever o roteiro de Capitão América 4 com Dalan Musson, também roteirista de Falcão e o Soldado Invernal. Não foram informados nomes do elenco, mas... dado o fim da série focada em Sam Wilson (Anthony Mackie) e Bucky Barnes (Sebastian Stan), dá para termos uma boa ideia do que virá pela frente.</p>
+            <button type="button">Marvel</button>
+            <button type="button">Herói</button>
+            <button type="button">Lançamento</button>
+           </div>
+       </section>
+       <aside class="computer" id="computador">
+                <div class="sobre">
+                    <div class="titulo-sobre">
+                    <h1>SOBRE</h1>
+                    </div>
+                    <p>Esse projeto foi desenvolvido para a disciplina Desenvolvimento de Interfaces Web, se consiste em um portal de filmes que inicialmente não possui outras ferramentas além de HTML5, CSS3 e alguns elementos acrescentados por Bootstrap.Por ser o meu primeiro projeto usando HTML e CSS eu tive bastante dificuldade em alguns aspectos, mas durante o processo eu me diverti bastante.Por ser meu primeiro contato com essa ferramentas e com esse cenário de um wireframe a ser seguido, eu efetuei algumas pequenas mudanças no layout do site que em minha opinião condizem mais com um Portal de Filmes real, como por exemplo colocar um texto do avaliador no carrosel e algumas alterações na estetica do site. Espero que gostem!!</p>
+                </div>
+           
+                <div class="editorial">
+                    <div class="titulo-editorial">
+                        <h1>EDITORIAL</h1>
+                    </div>
+                    <div class="editoria">
+                        <p><img src="./IMG/EazqyW3WAAA93Y7.jpg" style="border-radius: 360px;" width="45px" height="45px"><strong>Redação: </strong>Breno Lopes</p>
+                        <p><img src="./IMG/EazqyW3WAAA93Y7.jpg" style="border-radius: 360px;" width="45px" height="45px"><strong>Pesquisa: </strong>Breno Lopes</p>
+                        <p><img src="./IMG/EazqyW3WAAA93Y7.jpg" style="border-radius: 360px;" width="45px" height="45px"><strong>Gerente Geral: </strong>Breno Lopes</p>
+                    </div>
+                </div>
+                <div class="redes-sociais">
+                    <h1>Redes Sociais</h1>
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-instagram">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </div>
+       </aside>
+   </div>
+    <div class="celular">
+    <div class="sobre-ver-mobile">
+        <h1>SOBRE</h1>
+        <p>Esse projeto foi desenvolvido para a disciplina Desenvolvimento de Interfaces Web, se consiste em um portal de filmes que inicialmente não possui outras ferramentas além de HTML5, CSS3 e alguns elementos acrescentados por Bootstrap.Por ser o meu primeiro projeto usando HTML e CSS eu tive bastante dificuldade em alguns aspectos, mas durante o processo eu me diverti bastante.Por ser meu primeiro contato com essa ferramentas e com esse cenário de um wireframe a ser seguido, eu efetuei algumas pequenas mudanças no layout do site que em minha opinião condizem mais com um Portal de Filmes real, como por exemplo colocar um texto do avaliador no carrosel e algumas alterações na estetica do site. Espero que gostem!! </p>
+    </div>
+    <div class="editorial-ver-mobile">
+        <h1>EDITORIAL</h1>
+        <p><img src="./IMG/EazqyW3WAAA93Y7.jpg" style="border-radius: 360px;" width="45px" height="45px"><strong>Redação: </strong>Breno Lopes</p>
+        <p><img src="./IMG/EazqyW3WAAA93Y7.jpg" style="border-radius: 360px;" width="45px" height="45px"><strong>Pesquisa: </strong>Breno Lopes</p>
+        <p><img src="./IMG/EazqyW3WAAA93Y7.jpg" style="border-radius: 360px;" width="45px" height="45px"><strong>Gerente Geral: </strong>Breno Lopes</p>
+
+    </div>
+    <div class="rede-ver-mobile">
+            <h1>Redes Sociais</h1>
+            <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+            </a>
+            <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+            </a>
+            <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-facebook"></span>
+            </a>
+    </div>
+    </div>
+   <footer>
+       Copyright 2020 © - Diciplina de Desenvolvimento de interface Web - <strong>ICEI Puc Minas</strong> - <strong>Breno Lopes</strong> 
+       <img src="./IMG/M&M.png" alt="Logo">
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

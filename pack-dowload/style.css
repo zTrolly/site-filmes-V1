@@ -1,0 +1,1685 @@
+body{
+    background-color: #242423;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0px;
+  }
+
+nav{
+    background-color: #F5CB5C;
+}
+  button{
+    background: #d62828;
+    color: white;
+    border: 2px solid;
+    padding: 15px 20px;
+    border-radius: 50px;
+    box-shadow: #252525;  
+  }
+  button:hover{
+    color: #fff;
+    border-color:#9d0208  ;
+    background-color: #9d0208 ;
+    
+  }
+  /*-------------------------------------------------------------------------------------------*/
+  /* INICIO CSS CAROUSEL*/
+  .titulo-lancamento h1{
+    position: relative;
+        left: 0;
+        top: 10px;
+        width: 80%;
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        padding: 5px;
+        margin: 20px;
+        box-shadow: 8px  8px  #d62828;
+        text-decoration: none;
+        color: white;
+        font-family: 'Coda Caption', sans-serif;
+  }
+  .carousel-1 iframe{
+      align-self: center;
+      width: 80%;
+      margin-left: 125px;
+      margin-bottom: 20px;
+      
+  }
+  .titulo-carousel h1{
+    position: relative;
+    left: 0;
+    top: 10px;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+  }
+  .carousel-1{
+    background-color: #000814;
+    padding: auto;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    left: 0;
+    top: 10px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  .carousel-1 h2{
+    max-width: 85vw;
+    max-height: 15vh;
+    position: inherit;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 8px 8px #9d0208;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .carousel-1 p{
+    text-align: center;
+  }
+  .carousel-1 .container h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #9d0208;
+  }
+  .carousel-1 .container{
+    background-color: #F5CB5C;
+    box-shadow: 8px 8px#9d0208;
+    max-width: 27vw;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .carousel-1 .container button{
+    box-shadow: 8px 8px #000814;
+  }
+  .carousel-1 strong{
+    background-color: #9d0208;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 3px 5px;
+  }
+  .carousel-1 .avaliacao-1{
+      background-color: #F5CB5C;
+      border-radius: 30px;
+      padding: 20px;
+      color: black;
+      margin-left: 100px;
+      max-width: 25vw;
+      box-shadow: 8px 8px#9d0208;
+      margin-bottom: 50px;
+  }
+  .carousel-1 .avaliacao-1 h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #9d0208;
+    margin-bottom: 20px;
+  }
+
+  span{
+    display: block;
+    margin: 15px;
+  }
+
+  .carousel-2 iframe{
+    align-self: center;
+    width: 80%;
+    margin-left: 125px;
+    margin-bottom: 20px;
+}
+  .carousel-2{
+    background-color: #000814;
+    padding: auto;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    left: 0;
+    top: 10px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  .carousel-2 h2{
+    max-width: 85vw;
+    max-height: 15vh;
+    position: inherit;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 8px 8px #00b4d8;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .carousel-2 p{
+    text-align: center;
+  }
+  .carousel-2 .container h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #00b4d8;
+  }
+  .carousel-2 .container{
+    background-color: #F5CB5C;
+    box-shadow: 8px 8px #00b4d8;
+    max-width: 27vw;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .carousel-2 .container button{
+    box-shadow: 8px 8px #000814;
+  }
+  
+  .carousel-2 strong{
+    background-color: #9d0208;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 3px 5px;
+  }
+
+  .carousel-2 .avaliacao-2{
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    padding: 20px;
+    color: black;
+    margin-left: 100px;
+    max-width: 25vw;
+    box-shadow: 8px 8px #00b4d8;
+    margin-bottom: 50px;
+}
+.carousel-2 .avaliacao-2 h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #00b4d8;
+    margin-bottom: 20px;
+  }
+  
+  span{
+    display: block;
+    margin: 15px;
+  }
+  
+  .titulo-carousel h1{
+    position: relative;
+    left: 0;
+    top: 10px;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+  }
+  .carousel-3{
+    background-color: #000814;
+    padding: auto;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    left: 0;
+    top: 10px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  .carousel-3 iframe{
+    align-self: center;
+    width: 80%;
+    margin-left: 125px;
+    margin-bottom: 20px;
+}
+  .carousel-3 h2{
+    max-width: 85vw;
+    max-height: 15vh;
+    position: inherit;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 8px 8px #9d0208;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .carousel-3 p{
+    text-align: center;
+  }
+  .carousel-3 .container h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #9d0208;
+  }
+  .carousel-3 .container{
+    background-color: #F5CB5C;
+    box-shadow: 8px 8px#9d0208;
+    max-width: 27vw;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .carousel-3 .container button{
+    box-shadow: 8px 8px #000814;
+  }
+  
+  .carousel-3 strong{
+    background-color: #9d0208;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 3px 5px;
+  }
+  .carousel-3 .avaliacao-3{
+    background-color: #F5CB5C;
+      border-radius: 30px;
+      padding: 20px;
+      color: black;
+      margin-left: 100px;
+      max-width: 25vw;
+      box-shadow: 8px 8px#9d0208;
+      margin-bottom: 50px;;
+}
+.carousel-3 .avaliacao-3 h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #9d0208;
+    margin-bottom: 20px;
+  }
+  
+  span{
+    display: block;
+    margin: 15px;
+  }
+  
+/* FIM CSS CAROUSEL*/
+/*-------------------------------------------------------------------------------------------*/
+/* INICIO CSS DESTAQUE*/
+    .destaque{
+        position: relative;
+        left: 0;
+        top: 10px;
+        width: 90%;
+        background-color: #F5CB5C;
+        border-radius: 30px;
+        text-align: center;
+        padding: 15px;
+        margin: 20px;
+        box-shadow: #252525;
+        text-decoration: none;
+        color: black;
+        font-family: 'Coda Caption', sans-serif;
+    }
+    .card-group{
+        width: 100vw
+    }
+    .titulo-destaque h1{
+        position: relative;
+        left: 0;
+        top: 10px;
+        width: 90%;
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        padding: 15px;
+        margin: 20px;
+        box-shadow: 8px  8px  #d62828;
+        text-decoration: none;
+        color: white;
+        font-family: 'Coda Caption', sans-serif;
+        margin-left: 50px;
+        
+    }
+/* FIM CSS DESTAQUE*/
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO AVALIAÇÕES*/
+    
+.titulo-avaliacoes h1{
+        position: relative;
+        left: 0;
+        top: 10px;
+        width: 90%;
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        padding: 15px;
+        margin: 20px;
+        box-shadow: 8px  8px  #d62828;
+        text-decoration: none;
+        color: white;
+        font-family: 'Coda Caption', sans-serif;
+}
+
+.container-ultimas-av{
+        display: flex;
+        position: relative;
+        left: 0;
+        top: 10px;
+        width: 90%;
+        background-color: #F5CB5C;
+        border-radius: 30px;
+        text-align: center;
+        padding: 15px;
+        margin: 20px;
+        box-shadow: #252525;
+        text-decoration: none;
+        color: black;
+        font-family: 'Coda Caption', sans-serif;
+        padding-left: 50px;
+    }
+
+    .container-ultimas-av > div{
+        width: 30%;
+        border-width: .5px;
+        border-style: solid;
+        margin-right: 30px;
+        background-color: #000814;
+        color: rgba(230, 223, 223, 0.884);
+        border-radius: 30px;
+    }
+    .container-ultimas-av > div img{
+        width: 85px;
+        border-radius: 360px;
+    }
+    .butao-avaliações{
+        margin-left: 875px;
+    }
+/*FIM AVALIAÇÕES*/
+/*-------------------------------------------------------------------------------------------*/
+/*ENTREVISTAS CSS*/
+.entrevistas h1{
+    position: relative;
+    left: 0;
+    top: 10px;
+    width: 90%;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px  #d62828;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+}
+.container-entrevistas{
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 10px;
+    width: 90%;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+    padding-left: 50px;
+   
+}
+.container-entrevistas > div{
+    
+        width: 30%;
+        border-width: .5px;
+        border-style: solid;
+        margin-right: 30px;
+        background-color: #000814;
+        color: rgba(230, 223, 223, 0.884);
+        border-radius: 30px;
+        padding: 30px;
+        padding-left: 20px;
+}
+.container-entrevistas  iframe{
+    width: 20vw;
+}
+.entrevista-1{
+    box-shadow: 8px 8px #d62828;
+}
+.entrevista-2{
+    box-shadow: 8px 8px #00b4d8;
+}
+.entrevista-3{
+    box-shadow: 8px 8px #d62828;
+}
+
+/*FIM ENTREVISTAS CSS*/
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO CSS EDITORIAL*/
+.titulo-editorial h1{
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    max-width: 350px;
+}
+.editoria p{
+    background: #F5CB5C;
+    left: 0;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    flex-wrap: wrap;
+    max-width: 350px
+}
+/*FIM CSS EDITORIAL*/
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO CSS SOBRE*/
+
+.sobre{
+    grid-column: 3;
+    grid-row: 1 / 2;
+}
+.titulo-sobre h1{
+    display: block;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    max-width: 350px;  
+}
+.sobre p{
+    background: #F5CB5C;
+    left: 0;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+
+
+/*FIM CSS SOBRE*/
+/*-------------------------------------------------------------------------------------------*/
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+aside{
+    grid-column: 3;
+}
+
+.noticias{
+    display: grid;
+    grid-template-columns: 1fr 1f 1fr;
+    align-items: center;
+    
+    grid-column: 1 / 3;
+    grid-row: auto;
+
+}
+
+.noticias img{
+    max-width: 250px;
+    max-height: 183.94;
+    grid-column: 1;
+    grid-row: 1 / 4;
+    padding-right: 20px;
+}
+
+.noticias p{
+    padding: auto;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    left: 0;
+    top: 10px;
+    margin: 20px;
+    border-radius: 50px;;
+}
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO CSS NOTICIAS*/
+.titulo-noticial h1{
+    display: block;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    max-width: 350px;
+    align-items: center;
+}
+.noticia1{
+    background: #F5CB5C;
+    left: 0;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif; 
+    grid-template-columns: 1fr 1fr;  
+}
+.noticia2{
+    background: #F5CB5C;
+    left: 0;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;   
+}
+.noticia3{
+    background: #F5CB5C;
+    left: 0;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;   
+}
+.noticia4{
+    background: #F5CB5C;
+    left: 0;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;   
+}
+/*FIM CSS NOTICIAS*/
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO CSS REDES SOCIAIS*/
+.redes-sociais  h1{
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    max-width: 350px;
+}
+    .redes-sociais a {
+        background: #F5CB5C;
+        left: 0;
+        background-color: #000814;
+        border-radius: 30px;
+        margin: 20px;
+        box-shadow: 8px  8px #F5CB5C;
+        text-decoration: none;
+        color: #F5CB5C;
+        font-family: 'Coda Caption', sans-serif;
+        flex-wrap: wrap;
+    
+    }
+
+/*FIM CSS REDES SOCIAIS/
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO CSS FOOTER*/
+footer{
+    background-color: #F5CB5C;
+    align-content: center;
+}
+
+footer img{
+    width: 50px;
+    border-radius: 360px;
+}
+
+
+
+/*FINAL CSS FOOTER*/
+/*-------------------------------------------------------------------------------------------*/
+
+/*INICIO BREAKPOINTS*/
+/*RESPONSIVIDADE CAROUSEL*/
+/*CELULAR*/
+@media screen and (min-width:319px) and (max-width:764px){
+    .titulo-lancamento h1{
+        position: relative;
+            left: 0;
+            top: 10px;
+            width: 70%;
+            background-color: #000814;
+            border-radius: 30px;
+            text-align: center;
+            padding: 5px;
+            margin: 20px;
+            box-shadow: 8px  8px  #d62828;
+            text-decoration: none;
+            color: white;
+            font-family: 'Coda Caption', sans-serif;
+            font-size: 26px;
+      }
+    .carousel-1{
+        align-items: center;
+        width: 90vw;
+        top: 10px;
+        margin: 20px;
+        border-radius: 20px;;
+        background-color: #000814;
+
+    }
+    .carousel-1 iframe{
+        align-self: center;
+        width: 90%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+     
+    .carousel-1 button{
+        width: 100%;
+        
+     }
+
+     .carousel-1 h2{
+        max-width: 85vw;
+        max-height: 15vh;
+        position: inherit;
+        background-color: #F5CB5C;
+        border-radius: 30px;
+        text-align: left;
+        box-shadow: 8px 8px #9d0208;
+        text-decoration: none;
+        color: black;
+        font-family: 'Coda Caption', sans-serif;
+        padding: 20px;
+        margin: 10px;
+        align-items: center;
+        padding-right: 20px;
+        font-size: 26px;
+     }
+     .carousel-1 p{
+        font-size: 16px;
+        width: 70vw;
+        text-align: center;
+     }
+
+     .carousel-1 .container h3{
+        position: relative;
+        top: 10px;
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: #252525;
+        text-decoration: none;
+        color: white;
+        font-family: 'Coda Caption', sans-serif;
+        box-shadow: 8px 8px #9d0208;
+     }
+     
+     .carousel-1 .container{
+         background-color: #F5CB5C;
+         max-width: 70vw;
+         margin: 0;
+         padding: 0;
+         border-radius: 30px;
+         padding: 20px;
+     }
+     .carousel-1 .container button{
+        box-shadow: 8px 8px #000814;
+     }
+
+     .carousel-1 strong{
+        background-color: #9d0208;
+        border-radius: 30px;
+        padding: 5px;
+        margin: 3px 5px;
+    }
+
+    .carousel-1 .avaliacao-1{
+        background-color: #F5CB5C;
+      border-radius: 30px;
+      padding: 20px;
+      color: black;
+      margin-left: 15px;
+      max-width: 75vw;
+      box-shadow: 8px 8px#9d0208;
+      margin-bottom: 50px;
+      margin-top: 25px;
+    }
+    
+    span{
+        display: block;
+        margin: 15px;
+    }
+/*-------------------------------------------------*/     
+.carousel-2{
+    align-items: center;
+    width: 90vw;
+    top: 10px;
+    margin: 20px;
+    border-radius: 20px;;
+    background-color: #000814;
+
+}
+
+.carousel-2 iframe{
+    align-self: center;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+    }
+
+ 
+.carousel-2 button{
+    width: 100%;
+    
+ }
+
+ .carousel-2 h2{
+    max-width: 85vw;
+    max-height: 15vh;
+    position: inherit;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 8px 8px #00b4d8;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 26px;
+ }
+ .carousel-2 p{
+    font-size: 16px;
+    width: 70vw;
+    text-align: center;
+ }
+
+ .carousel-2 .container h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #9d0208;
+ }
+ 
+ .carousel-2 .container{
+     background-color: #F5CB5C;
+     box-shadow: 8px 8px #00b4d8;
+     max-width: 70vw;
+     margin: 0;
+     padding: 0;
+     border-radius: 30px;
+     padding: 20px;
+     padding-left: 0px;
+ }
+ .carousel-2 .container button{
+    box-shadow: 8px 8px #000814;
+ }
+
+ .carousel-2 strong{
+    background-color: #9d0208;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 3px 5px;
+}
+.carousel-2 .avaliacao-2{
+    background-color: #F5CB5C;
+      border-radius: 30px;
+      padding: 20px;
+      color: black;
+      margin-left: 15px;
+      max-width: 75vw;
+      box-shadow: 8px 8px #00b4d8;
+      margin-bottom: 50px;
+      margin-top: 25px;
+}
+
+span{
+    display: block;
+    margin: 15px;
+}
+/*-------------------------------------------------*/ 
+.carousel-3{
+    align-items: center;
+    width: 90vw;
+    top: 10px;
+    margin: 20px;
+    border-radius: 20px;;
+    background-color: #000814;
+
+}
+.carousel-3 iframe{
+    align-self: center;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+ 
+.carousel-3 button{
+    width: 100%;
+    
+ }
+
+ .carousel-3 h2{
+    max-width: 85vw;
+    max-height: 15vh;
+    position: inherit;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 8px 8px #9d0208;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 26px;
+ }
+ .carousel-3 p{
+    font-size: 16px;
+    width: 70vw;
+    text-align: center;
+ }
+
+ .carousel-3 .container h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #9d0208;
+ }
+ 
+ .carousel-3 .container{
+     background-color: #F5CB5C;
+     max-width: 70vw;
+     margin: 0;
+     padding: 0;
+     border-radius: 30px;
+     padding: 20px;
+ }
+ .carousel-3 .container button{
+    box-shadow: 8px 8px #000814;
+ }
+ .carousel-3 strong{
+    background-color: #9d0208;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 3px 5px;
+}
+
+.carousel-3 .avaliacao-3{
+    background-color: #F5CB5C;
+      border-radius: 30px;
+      padding: 20px;
+      color: black;
+      margin-left: 15px;
+      max-width: 75vw;
+      box-shadow: 8px 8px #9d0208;
+      margin-bottom: 50px;
+      margin-top: 25px;
+}
+span{
+    display: block;
+    margin: 15px;
+}
+/*-------------------------------------------------*/
+.carousel-4{
+    align-items: center;
+    width: 90vw;
+    top: 10px;
+    margin: 20px;
+    border-radius: 20px;;
+    background-color: #000814;
+
+}
+.carousel-4 iframe{
+    width: 85vw;
+    height: 50%;
+    align-items: center;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+ 
+.carousel-4 button{
+    width: 100%;
+    
+ }
+
+ .carousel-4 h2{
+    max-width: 85vw;
+    max-height: 15vh;
+    position: inherit;
+    background-color: #F5CB5C;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 8px 8px #9d0208;
+    text-decoration: none;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    padding-right: 20px;
+ }
+ .carousel-4 p{
+    font-size: 16px;
+    width: 70vw;
+    text-align: center;
+ }
+
+ .carousel-4 .container h3{
+    position: relative;
+    top: 10px;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    box-shadow: 8px 8px #9d0208;
+ }
+ 
+ .carousel-4 .container{
+     background-color: #F5CB5C;
+     max-width: 70vw;
+     margin: 0;
+     padding: 0;
+     border-radius: 30px;
+     padding: 20px;
+ }
+ .carousel-4 .container button{
+    box-shadow: 8px 8px #000814;
+ }
+
+ .carousel-4 strong{
+    background-color: #9d0208;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 3px 5px;
+}
+
+span{
+    display: block;
+    margin: 15px;
+}
+}
+/*TABLET*/
+@media screen and (min-width:765px) and (max-width:1025px){
+    
+    .carousel-1{
+        display: flexbox;
+        flex-direction: row;
+        width:90vw;
+        top: 10px;
+        margin: 20px;
+        border-radius: 50px;
+        background-color: #000814;
+        
+    }
+
+    
+    .carousel-1 h2{
+        position: inherit;
+        float: left;
+        top: 10px;
+        max-width: 88vw;
+        background-color: #F5CB5C;
+        border-radius: 30px;
+        text-align: left;
+        box-shadow: 8px 8px #9d0208;
+        text-decoration: none;
+        color: black;
+        font-family: 'Coda Caption', sans-serif;
+        padding: 20px;
+        margin: 10px;
+        align-items: center;
+     }
+     
+
+     .carousel-1 .container h3{
+        position: relative;
+        top: 10px;
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: #252525;
+        text-decoration: none;
+        color: white;
+        font-family: 'Coda Caption', sans-serif;
+        box-shadow: 8px 8px #9d0208;
+     }
+     
+     .carousel-1 .container{
+         background-color: #F5CB5C;
+         margin: 0;
+         padding: 0;
+         border-radius: 30px;
+         padding: 20px;
+     }
+     .carousel-1 .container button{
+        box-shadow: 8px 8px #000814;
+     }
+
+     .carousel-1 strong{
+         background-color: #9d0208;
+         border-radius: 30px;
+         padding: 5px;
+         margin: 3px 5px;
+     }
+     .carousel-1 iframe{
+         width: 80vw;
+        padding-right: 20px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    .carousel-1 .avaliacao-1{
+        width: 45%;
+        background-color: #F5CB5C;
+        border-radius: 25px;
+        padding: 20px ;
+        margin-top: 18px;
+        box-shadow: 8px 8px #9d0208;
+        margin-bottom: 25px;
+        color: black;
+    }
+
+     span{
+        display: block;
+        margin: 15px;
+    }
+    .carousel-2{
+        display: flexbox;
+        flex-direction: row;
+        width:90vw;
+        top: 10px;
+        margin: 20px;
+        border-radius: 50px;
+        background-color: #000814;
+        
+    }
+
+    
+    .carousel-2 h2{
+        position: inherit;
+        float: left;
+        top: 10px;
+        max-width: 88vw;
+        background-color: #F5CB5C;
+        border-radius: 30px;
+        text-align: left;
+        box-shadow: 8px 8px #9d0208;
+        text-decoration: none;
+        color: black;
+        font-family: 'Coda Caption', sans-serif;
+        padding: 20px;
+        margin: 10px;
+        align-items: center;
+     }
+     
+
+     .carousel-2 .container h3{
+        position: relative;
+        top: 10px;
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: #252525;
+        text-decoration: none;
+        color: white;
+        font-family: 'Coda Caption', sans-serif;
+        box-shadow: 8px 8px #9d0208;
+     }
+     
+     .carousel-2 .container{
+         background-color: #F5CB5C;
+         margin: 0;
+         padding: 0;
+         border-radius: 30px;
+         padding: 20px;
+     }
+     .carousel-2 .container button{
+        box-shadow: 8px 8px #000814;
+     }
+
+     .carousel-2 strong{
+         background-color: #9d0208;
+         border-radius: 30px;
+         padding: 5px;
+         margin: 3px 5px;
+     }
+     .carousel-2 iframe{
+         width: 80vw;
+        padding-right: 20px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    .carousel-2 .avaliacao-2{
+        width: 45%;
+        background-color: #F5CB5C;
+        border-radius: 25px;
+        padding: 20px ;
+        margin-top: 18px;
+        box-shadow: 8px 8px #00b4d8;
+        margin-bottom: 25px;
+        color: black;
+    }
+
+     span{
+        display: block;
+        margin: 15px;
+    }
+    .carousel-3{
+        display: flexbox;
+        flex-direction: row;
+        width:90vw;
+        top: 10px;
+        margin: 20px;
+        border-radius: 50px;
+        background-color: #000814;
+        
+    }
+
+    
+    .carousel-3 h2{
+        position: inherit;
+        float: left;
+        top: 10px;
+        max-width: 88vw;
+        background-color: #F5CB5C;
+        border-radius: 30px;
+        text-align: left;
+        box-shadow: 8px 8px #9d0208;
+        text-decoration: none;
+        color: black;
+        font-family: 'Coda Caption', sans-serif;
+        padding: 20px;
+        margin: 10px;
+        align-items: center;
+     }
+     
+
+     .carousel-3 .container h3{
+        position: relative;
+        top: 10px;
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: #252525;
+        text-decoration: none;
+        color: white;
+        font-family: 'Coda Caption', sans-serif;
+        box-shadow: 8px 8px #9d0208;
+     }
+     
+     .carousel-3 .container{
+         background-color: #F5CB5C;
+         margin: 0;
+         padding: 0;
+         border-radius: 30px;
+         padding: 20px;
+     }
+     .carousel-3 .container button{
+        box-shadow: 8px 8px #000814;
+     }
+
+     .carousel-3 strong{
+         background-color: #9d0208;
+         border-radius: 30px;
+         padding: 5px;
+         margin: 3px 5px;
+     }
+     .carousel-3 iframe{
+         width: 80vw;
+        padding-right: 20px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    .carousel-3 .avaliacao-3{
+        width: 45%;
+        background-color: #F5CB5C;
+        border-radius: 25px;
+        padding: 20px ;
+        margin-top: 18px;
+        box-shadow: 8px 8px #9d0208;
+        margin-bottom: 25px;
+        color: black;
+    }
+
+     span{
+        display: block;
+        margin: 15px;
+    }
+    
+    
+}
+/* FINAL RESPONSIVIDADE CAROUSEL*/
+/*-------------------------------------------------*/
+/*RESPONSIVIDADE DESTAQUES*/
+@media screen and (min-width:319px) and (max-width:1000px){
+    .titulo-destaque h1{
+    position: relative;
+    left: 0;
+    top: 10px;
+    width: 90%;
+    background-color: #000814;;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    }
+    .destaque button{
+        width: 70vw;
+    }
+}
+/*FINAL RESPONSIVIDADE DESTAQUES*/
+/*-------------------------------------------------*/
+/*RESPONSIVIDADE AVALIAÇÕES*/
+@media screen and (min-width:319px) and (max-width:764px){
+    .entrevistas h1{
+    left: 0;
+    top: 10px;
+    width: 90%;
+    background-color: #000814;;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: #252525;
+    text-decoration: none;
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+    
+    }
+    .container-ultimas-av{
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        top: 10px;
+        margin: 20px;
+        border-radius: 30px;
+        background-color: #F5CB5C;
+    }
+    .container-ultimas-av > div{
+        width: 80%;
+        border-width: .5px;
+        border-style: solid;
+        margin-right: 30px;
+        background-color: #000814;
+        color: rgba(230, 223, 223, 0.884);
+        border-radius: 30px;
+        margin-bottom: 20px ;
+    }
+    .container-ultimas-av > div > button{
+        background: #d62828;
+        color: white;
+        border: 2px solid;
+        padding: 15px 20px;
+        border-radius: 50px;
+        box-shadow: #252525;
+        border-width: 0px;
+        background-color: #F5CB5C;
+        color: black;
+    }
+
+    .butao-avaliações{
+        width: 70vw;
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width:765px) and (max-width:1023px){
+    .container-ultimas-av{
+        width: 90vw;
+        top: 10px;
+        margin: 20px;
+        border-radius: 20px;;
+        background-color: #000814;
+        background-color: #F5CB5C;
+    }
+
+    .container-ultimas-av > .av1{
+        width: 80%;
+        border-width: .5px;
+        border-style: solid;
+        margin-right: 30px;
+        background-color: #000814;
+        color: rgba(230, 223, 223, 0.884);
+        border-radius: 30px;
+        margin-bottom: 20px ;
+    }
+    .container-ultimas-av > .av2{
+        width: 90vw;
+        border-width: .5px;
+        border-style: solid;
+        margin-right: 30px;
+        background-color: #000814;
+        color: rgba(230, 223, 223, 0.884);
+        border-radius: 30px;
+        margin-bottom: 20px ;
+    }
+    .butao-avaliações{
+        margin-left: 640px;
+    }
+}
+/*FINAL RESPONSIVIDADE AVALIAÇÕES*/
+/*-------------------------------------------------*/
+/*ENTREVISTAS E MAKING OF*/
+@media screen and (min-width:319px) and (max-width:764px){
+        .container-entrevistas{
+            flex-direction: column;
+            align-items: center;
+            width: 90vw;
+            top: 10px;
+            margin: 20px;
+            border-radius: 30px;
+            background-color: #F5CB5C;
+        }
+        .container-entrevistas > div{
+            width: 75vw;
+            border-width: .5px;
+            border-style: solid;
+            margin-right: 30px;
+            background-color: #000814;
+            color: rgba(230, 223, 223, 0.884);
+            border-radius: 30px;
+            margin-bottom: 20px ;
+            
+        }
+        
+        .container-entrevistas  iframe{
+            width: 60vw;
+        }
+  
+    }
+@media screen and (min-width:765px) and (max-width:1023px){
+    .container-entrevistas{
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        top: 10px;
+        margin: 20px;
+        border-radius: 30px;
+        background-color: #F5CB5C;
+    }
+    .container-entrevistas > div{
+        width: 75vw;
+        border-width: .5px;
+        border-style: solid;
+        margin-right: 30px;
+        background-color: #000814;
+        color: rgba(230, 223, 223, 0.884);
+        border-radius: 30px;
+        margin-bottom: 20px ;
+        
+    }
+    
+    .container-entrevistas  iframe{
+        width: 60vw;
+    }
+}
+/* FIM ENTREVISTAS E MAKING OF*/
+/*-------------------------------------------------*/
+/*NOTICIAS*/
+@media screen and (min-width:319px) and (max-width:764px){
+    #computador{
+        display: none;
+    }
+    .grid{
+        margin-left: 10px;
+        padding: 0px;
+        width: 100vw;
+    }
+
+    .noticia1{
+        margin-left: 0px;
+    }
+    .noticia1 img{
+        width: 100vw;
+        margin-left: 20px;
+    }
+    .noticia2{
+        margin-left: 0px;
+    }
+    .noticia2 img{
+        width: 100vw;
+        margin-left: 20px;
+    }
+    .noticia3{
+        margin-left: 0px;
+    }
+    .noticia3 img{
+        width: 100vw;
+        margin-left: 20px;
+    }
+
+    .noticias{
+        width: 90vw;
+    }
+    
+}
+/*FINAL NOTICIAS*/
+/*-------------------------------------------------*/
+@media screen and (min-width:765px){
+    .celular    {
+        display: none;
+    }
+}
+@media screen {
+    .sobre-ver-mobile{
+        width: 80vw;
+        border-radius: 30px;
+        padding: 10px;
+        margin-left: 40px;
+    }
+    .sobre-ver-mobile h1{
+        display: block;
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    max-width: 350px;
+    margin-left: 10px;
+    }
+    .sobre-ver-mobile p{
+        background-color: #000814;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 8px  8px #F5CB5C;
+    }
+    .editorial-ver-mobile p{
+        background: #F5CB5C;
+        left: 0;
+        top: 10px;
+        background-color: #000814;
+        border-radius: 30px;
+        padding: 15px;
+        margin: 20px;
+        box-shadow: 8px  8px #F5CB5C;
+        text-decoration: none;
+        color: #F5CB5C;
+        font-family: 'Coda Caption', sans-serif;
+        max-width: 350px;
+        
+        
+    }
+    .editorial-ver-mobile h1{
+        background-color: #000814;
+        border-radius: 30px;
+        text-align: center;
+        padding: 15px;
+        margin: 20px;
+        box-shadow: 8px  8px #F5CB5C;
+        text-decoration: none;
+        color: #F5CB5C;
+        font-family: 'Coda Caption', sans-serif;
+        max-width: 350px;
+    }
+    .editorial-ver-mobile{
+        align-content: center;
+    }
+
+    .rede-ver-mobile h1{
+    background-color: #000814;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 8px  8px #F5CB5C;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Coda Caption', sans-serif;
+    max-width: 350px;
+    }
+
+    .rede-ver-mobile a {
+        background: #F5CB5C;
+        left: 0;
+        background-color: #000814;
+        border-radius: 30px;
+        margin: 20px;
+        box-shadow: 8px  8px #F5CB5C;
+        text-decoration: none;
+        color: #F5CB5C;
+        font-family: 'Coda Caption', sans-serif;
+        flex-wrap: wrap;
+    
+    }
+}
+
+::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background:#333;
+}
+::-webkit-scrollbar-thumb {
+    background: #9d0208;
+    border-radius: 30px;
+    }
+
+
+
+    
